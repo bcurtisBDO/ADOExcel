@@ -6,25 +6,25 @@
   xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
   xsi:type="TaskPaneApp">
   <Id>7e3c9d2a-6b14-4f8e-9c31-2a5d8e7f0b19</Id>
-  <Version>0.3.12.0</Version>
+  <Version>1.0.0.0</Version>
   <ProviderName>ADO in Excel</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="ADO in Excel"/>
   <Description DefaultValue="Refresh and publish Azure DevOps work items from Excel, open them in the browser, and manage links, attachments, and discussion."/>
-  <IconUrl DefaultValue="https://localhost:3001/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3001/assets/icon-80.png"/>
+  <IconUrl DefaultValue="https://bcurtisbdo.github.io/ADOExcel/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://bcurtisbdo.github.io/ADOExcel/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://github.com/DrBillC67/ADO-OpenInExcel"/>
   <AppDomains>
     <AppDomain>https://dev.azure.com</AppDomain>
     <AppDomain>https://login.microsoftonline.com</AppDomain>
     <AppDomain>https://login.microsoft.com</AppDomain>
-    <AppDomain>https://localhost:3001</AppDomain>
+    <AppDomain>https://bcurtisbdo.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://localhost:3001/taskpane.html"/>
+    <SourceLocation DefaultValue="https://bcurtisbdo.github.io/ADOExcel/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -134,14 +134,14 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16" DefaultValue="https://localhost:3001/assets/icon-16.png"/>
-        <bt:Image id="Icon.32" DefaultValue="https://localhost:3001/assets/icon-32.png"/>
-        <bt:Image id="Icon.80" DefaultValue="https://localhost:3001/assets/icon-80.png"/>
+        <bt:Image id="Icon.16" DefaultValue="https://bcurtisbdo.github.io/ADOExcel/assets/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://bcurtisbdo.github.io/ADOExcel/assets/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://bcurtisbdo.github.io/ADOExcel/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://github.com/DrBillC67/ADO-OpenInExcel"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3001/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3001/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://bcurtisbdo.github.io/ADOExcel/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://bcurtisbdo.github.io/ADOExcel/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="ADO in Excel"/>
